@@ -5,7 +5,7 @@ const {Server}=require('socket.io');
 const path= require('path');    
 const http = require('http')
 const server = http.createServer(app);
-const io = new Server(server);
+const io = new Server(server); 
 
 //socket.io
 io.on('connection',(socket)=>{
